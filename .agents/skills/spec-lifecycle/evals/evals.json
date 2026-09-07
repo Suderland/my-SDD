@@ -1,0 +1,23 @@
+{
+  "skill_name": "spec-lifecycle",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a persisted specification and implementation plan for password reset.",
+      "expected_output": "Creates stable requirement IDs, acceptance criteria, plan, tasks and initial machine-readable state.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We implemented two of five checkout requirements; update project status.",
+      "expected_output": "Updates state based on evidence and does not mark implemented work verified without checks.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Audit this feature spec against code and tests and tell me what remains.",
+      "expected_output": "Reconciles requirements, tasks, state, implementation and evidence; identifies drift.",
+      "files": []
+    }
+  ]
+}

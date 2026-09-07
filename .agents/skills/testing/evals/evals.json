@@ -1,0 +1,23 @@
+{
+  "skill_name": "testing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Implement a money-transfer limit and persistence.",
+      "expected_output": "Uses unit tests for rule, integration for persistence, E2E for critical public flow and mutation on meaningful financial logic.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Fix tenant authorization bug in invoice API.",
+      "expected_output": "Adds regression/authorization evidence and mutation focus; verifies causality when practical.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "This repository only contains static Markdown documentation. What test baseline applies?",
+      "expected_output": "Does not fabricate unit/E2E/mutation tests; records justified inapplicability for executable-system requirements.",
+      "files": []
+    }
+  ]
+}

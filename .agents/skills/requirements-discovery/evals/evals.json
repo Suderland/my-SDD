@@ -1,0 +1,23 @@
+{
+  "skill_name": "requirements-discovery",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Add multi-tenant invoice sharing. The request says users can share invoices but does not specify whether links are public or authenticated.",
+      "expected_output": "Inspects existing auth/spec context, asks about the security-relevant access model if unresolved, and does not ask trivial implementation questions.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Rename a button label from Save Changes to Save.",
+      "expected_output": "Does not start an unnecessary requirements interview when the change is clear and reversible.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Add data retention for customer documents.",
+      "expected_output": "Clarifies retention/deletion/legal/backup implications that materially affect design if not already specified.",
+      "files": []
+    }
+  ]
+}

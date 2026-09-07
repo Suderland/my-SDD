@@ -1,0 +1,15 @@
+{
+  "feature": "<FEATURE-ID>",
+  "name": "<Feature name>",
+  "stage": "specification",
+  "requirements": {
+    "REQ-<AREA>-001": {
+      "status": "not_started",
+      "tasks": [],
+      "evidence": [],
+      "blocked_by": null
+    }
+  },
+  "test_waivers": {},
+  "updated_at": "<ISO-8601>"
+}
